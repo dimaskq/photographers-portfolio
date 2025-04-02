@@ -1,19 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="css/base-styles.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/base-styles.css" />
+    <link id="theme-stylesheet" rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/adaptive.css" />
+    <link rel="stylesheet" href="fonts/style.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- dmtro.kravchenko@gmail.com - developer -->
+  </head>
+  <body>
     <div class="wrapper">
-        <header id="header"></header>
-        <main class="main"></main>
-        <footer class="footer"></footer>
+      <header id="header"></header>
+      <main class="main">
+        <div class="baner">
+          <div class="baner__container">
+            <section class="baner__leftSide">
+              <nav class="baner__leftSide_menu">
+                <ul class="leftSide__menu_list">
+                  <li class="leftSide__menu_item leftSide__menu_instagram">
+                    <a
+                      href="https://www.instagram.com/manuilikova_oksana?igsh=MTVwNmd5Z2dpZ2d3NA=="
+                      class="leftSide__menu_link"
+                      ><span class="icon-instagram"></span>Instagram</a
+                    >
+                  </li>
+                  <li class="leftSide__menu_item">
+                    <a
+                      href="https://www.tiktok.com/@oksana.manuilikov?_t=ZM-8t0XC9umWPO&_r=1"
+                      class="leftSide__menu_link"
+                      ><span class="icon-tiktok"></span>Tik-Tok</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section class="baner__rightSide">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swiper-slide1">
+                    <img src="./img/gallery/IMG_2244.JPG" alt="Slide 1" />
+                    <div class="slide__information">
+                      <h2
+                        class="slide__title animate__animated animate__fadeIn"
+                      >
+                        Girl from love will north country
+                      </h2>
+                      <p class="slide__text animate__animated animate__fadeIn">
+                        Lorem, ipsum dolor amet consectetur adipisicing elit.
+                        Commodi at, minus modi itaque quas vero consequatur.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-slide2">
+                    <img src="./img/gallery/IMG_1609.JPG" alt="Slide 2" />
+                    <div class="slide__information">
+                      <h2
+                        class="slide__title animate__animated animate__fadeIn"
+                      >
+                        Girl from love will north country
+                      </h2>
+                      <p class="slide__text animate__animated animate__fadeIn">
+                        Lorem, ipsum dolor amet consectetur adipisicing elit.
+                        Commodi at, minus modi itaque quas vero consequatur.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/gallery/photo_2025-04-01_20-14-32.jpg"
+                      alt="Slide 3"
+                    />
+                    <div class="slide__information">
+                      <h2
+                        class="slide__title animate__animated animate__fadeIn"
+                      >
+                        Girl from love will north country
+                      </h2>
+                      <p class="slide__text animate__animated animate__fadeIn">
+                        Lorem, ipsum dolor amet consectetur adipisicing elit.
+                        Commodi at, minus modi itaque quas vero consequatur.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper__btn_container">
+                  <button
+                    class="swiper-button swiper-button-prev icon-left"
+                  ></button>
+                  <button
+                    class="swiper-button swiper-button-next icon-right"
+                  ></button>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div id="aboutMe"></div>
+        <div class="homeGallary">
+          <h2 class="homeGallary__title">Latest <span>Works</span></h2>
+          <div class="aboutMe__line gallary__line"></div>
+          <div class="homeGallary__container">
+            <a data-fancybox="gallery" href="./img/gallery/IMG_1469.JPG">
+              <img
+                src="./img/gallery/IMG_1469.JPG"
+                alt="gallery item"
+                class="homeGallery__item"
+              />
+            </a>
+            <a data-fancybox="gallery" href="./img/gallery/IMG_2244.JPG">
+              <img
+                src="./img/gallery/IMG_2244.JPG"
+                alt="gallery item"
+                class="homeGallery__item"
+              />
+            </a>
+            <a data-fancybox="gallery" href="./img/gallery/IMG_1528.JPG">
+              <img
+                src="./img/gallery/IMG_1528.JPG"
+                alt="gallery item"
+                class="homeGallery__item"
+              />
+            </a>
+            <a data-fancybox="gallery" href="./img/gallery/IMG_1576.JPG">
+              <img
+                src="./img/gallery/IMG_1576.JPG"
+                alt="gallery item"
+                class="homeGallery__item"
+              />
+            </a>
+            <a
+              data-fancybox="gallery"
+              href="./img/gallery/photo_2025-04-01_20-15-38.jpg"
+            >
+              <img
+                src="./img/gallery/photo_2025-04-01_20-15-38.jpg"
+                alt="gallery item"
+                class="homeGallery__item"
+              />
+            </a>
+            <a data-fancybox="gallery" href="./img/gallery/IMG_1609.JPG">
+              <img
+                src="./img/gallery/IMG_1609.JPG"
+                alt="gallery item"
+                class="homeGallery__item"
+              />
+            </a>
+            <a data-fancybox="gallery" href="./img/gallery/IMG_1706.JPG">
+              <img
+                src="./img/gallery/IMG_1706.JPG"
+                alt="gallery item"
+                class="homeGallery__item"
+              />
+            </a>
+            <a data-fancybox="gallery" href="./img/gallery/IMG_2250.JPG">
+              <img
+                src="./img/gallery/IMG_2250.JPG"
+                alt="gallery item"
+                class="homeGallery__item"
+              />
+            </a>
+
+            <a data-fancybox="gallery" href="./img/gallery/IMG_2136.JPG">
+              <img
+                src="./img/gallery/IMG_2136.JPG"
+                alt="gallery item"
+                class="homeGallery__item"
+              />
+            </a>
+            <a data-fancybox="gallery" href="./img/gallery/IMG_2284.JPG">
+              <img
+                src="./img/gallery/IMG_2284.JPG"
+                alt="gallery item"
+                class="homeGallery__item"
+              />
+            </a>
+
+            <a data-fancybox="gallery" href="./img/gallery/IMG_4788.mp4">
+              <div class="homeGallery__video-container">
+                <video
+                  class="homeGallery__item"
+                  poster="./img/gallery/IMG_4788_poster.png"
+                >
+                  <source src="./img/gallery/IMG_1257.MP4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </a>
+            <a
+              data-fancybox="gallery"
+              href="./img/gallery/photo_2025-04-01_20-14-32.jpg"
+            >
+              <img
+                src="./img/gallery/photo_2025-04-01_20-14-32.jpg"
+                alt="gallery item"
+                class="homeGallery__item"
+              />
+            </a>
+          </div>
+        </div>
+      </main>
+      <footer id="footer"></footer>
     </div>
 
+    <script src="./js/theme.js"></script>
     <script src="./js/header.js"></script>
-</body>
+    <script src="./js/aboutMe.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.umd.js"></script>
+  </body>
 </html>
