@@ -1,0 +1,161 @@
+/* Basic styles for swiper container */
+.swiper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: auto; /* Динамічна ширина */
+  position: relative;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.swiper-slide1 img,
+.swiper-slide2 img {
+  filter: brightness(50%);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide__information {
+  position: absolute;
+  bottom: 11%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  width: 40%;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.slide__title {
+  font-size: 2rem;
+  font-weight: 800;
+  animation-delay: 0.5s;
+}
+
+.slide__text {
+  width: 50%;
+  font-size: 0.9rem;
+  animation-delay: 0.9s;
+}
+
+/* Pagination styles */
+.swiper-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 14%;
+  display: flex;
+  z-index: 30;
+}
+
+.swiper-pagination-bullet {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  margin: 0 8px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.swiper-pagination svg {
+  transform: rotate(-90deg); /* Rotate SVG to match clock-wise direction */
+  width: 100%;
+  height: 90%;
+  transform-origin: 50% 50%; /* Ensures animation starts from top */
+}
+
+.background-circle {
+  fill: transparent;
+  stroke: #dfdfdf45; /* Gray border for inactive circle */
+  stroke-width: 2;
+}
+
+.progress-circle {
+  fill: transparent;
+  stroke: transparent; /* Start with transparent stroke */
+  stroke-width: 2;
+  stroke-dasharray: 150; /* 2 * π * radius (for a radius of 24) */
+  stroke-dashoffset: 150; /* Start fully hidden */
+  transition: stroke-dashoffset 4s linear, stroke 0.5s ease; /* Set animation duration to 4 seconds */
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active .progress-circle {
+  stroke: #ff9500; /* Set rgb(145, 48, 0) color when active */
+  stroke-dashoffset: 0; /* Animate stroke when active */
+}
+
+.swiper-pagination-bullet span {
+  position: absolute;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Optional: Styling for navigation arrows */
+.swiper-button {
+  transform: translateY(-50%);
+  color: white;
+  background-color: #ff950000;
+  border: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.swiper__btn_container {
+  margin: 0 0 0 100px;
+  display: flex;
+  color: #dfdcdc;
+  font-size: 1.5rem;
+  width: 100%;
+  max-width: 1080px;
+  /* position: relative; */
+}
+
+.swiper-button-next {
+  position: absolute;
+  bottom: 0;
+  right: 3%;
+  z-index: 100;
+}
+.swiper-button-prev {
+  position: absolute;
+  bottom: 0;
+  left: 3%;
+  z-index: 100;
+}
+
+@media (max-width: 728px) {
+  .slide__information {
+    width: 60%;
+  }
+
+  .slide__text {
+    width: 100%;
+  }
+}
