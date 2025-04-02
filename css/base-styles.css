@@ -38,3 +38,16 @@
   
   body::-webkit-scrollbar { width: 0; }
   body{ -ms-overflow-style: none; }  
+  /* =================================== */
+
+/* Container styles */
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+}
+
+main{
+  flex-grow: 1;
+}
