@@ -150,4 +150,11 @@
   #contacts-form button:hover {
     background-color: #ffffff00;
   }
+
+  .gallery__title {
+    margin: 30px 0 0 0;
+  }
+  .gallery-controls {
+    margin: 20px 0 0 0;
+  }
 }
