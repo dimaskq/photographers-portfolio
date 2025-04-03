@@ -6,9 +6,7 @@ const footerHTML = `<ul class="footer-links">
             <div class="footer__container">
                 <div class="footer__leftSide">
                     <div class="footer__logo">
-                        <div><a href="./index.html"><img src="./img/icons/logotest.png" alt="logo" class="logo__img"></a></div>
-                        <p class="footer__leftSide_text">The world without photography will be meaningless to us if there is no light and color, which opens up our minds and expresses passion.</p>
-                    </div>
+                        <div><a href="./index.html"><img src="./img/icons/logo.png" alt="logo" class="logo__img"></a></div>                     </div>
                 </div>
                 <div class="footer__center">
                     <h2 class="footer__latestWorks footer__title">Latest Photos</h2>
@@ -33,7 +31,7 @@ const footerHTML = `<ul class="footer-links">
                     <div class="aboutMe__line footer__line"></div>
                     <div class="footer__contact">
                         <p class="footer__contacts_phone"><span>Phone:</span> +359 877869931</p>
-                        <p class="footer__contacts_email"> <span>E-mail:</span> myEmail@gmail.com</p>
+                        <p class="footer__contacts_email"> <span>E-mail:</span> oksanamanuilikova@gmail.com</p>
                     </div>
                     <p class="copyright">Copyright © 2025 Oksana Manuilikova. All Rights Reserved.</p>
                 </div>

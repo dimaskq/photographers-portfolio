@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="icon" type="image/png" href="./img/gallery/favicon.jpg" />
     <link rel="stylesheet" href="css/base-styles.css" />
     <link id="theme-stylesheet" rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/adaptive.css" />
@@ -38,7 +39,7 @@
             ).value;
 
             const templateParams = {
-              to_name: "Dmytro Kravchenko",
+              to_name: "Oksana Manuilikova",
               from_name: name,
               from_email: email,
               message: message,
@@ -71,18 +72,6 @@
             <h1 class="contacts__title">Contacts</h1>
             <div class="contacts__container">
               <div class="contacts__leftSide">
-                <div class="contacts__text">
-                  <p class="contacts__description">
-                    The world without photography will be meaningless to us if
-                    there is no light and color.
-                  </p>
-                  <p class="contacts__details">
-                    My photos are inspired by light, color, techniques from
-                    black & white processing, vintage photos, creative
-                    perspective, and of course, most importantly, the
-                    personalities of the people I photograph!
-                  </p>
-                </div>
                 <div class="contact-items">
                   <div class="contact-item">
                     <span class="icon-mobile"></span>
@@ -90,7 +79,7 @@
                   </div>
                   <div class="contact-item">
                     <span class="icon-mail"></span>
-                    <p>support@promotheme.com</p>
+                    <p>oksanamanuilikova@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -98,17 +87,17 @@
                 <form id="contacts-form">
                   <!-- Нове поле для введення імені -->
                   <input
-                    type="text"
+                    type="email"
                     name="user_name"
-                    placeholder="Your Name"
+                    placeholder="E-mail"
                     required
                   />
 
                   <!-- Поле для email -->
                   <input
-                    type="email"
+                    type="text"
                     name="user_email"
-                    placeholder="E-mail"
+                    placeholder="Your Name"
                     required
                   />
 
@@ -128,7 +117,6 @@
       <footer id="footer"></footer>
     </div>
 
-    <script src="./js/theme.js"></script>
     <script src="./js/header.js"></script>
     <script src="./js/footer.js"></script>
   </body>

@@ -7,9 +7,11 @@ const aboutHTML = `<div class="aboutMe">
                     </div>
                     <div class="aboutMe__info"  data-aos="fade-left">
                         <h2 class="aboutMe__containerTitle">About Me</h2>
-                        <h3 class="aboutMe__title">My name is Oksana Manuilikova, <br>I’m a <span>Videomaker.</span></h3>
+                        <h3 class="aboutMe__title">My name is Oksana Manuilikova, <br>I’m a <span>Content Creator, Videographer</span></h3>
                         <div class="aboutMe__line"></div>
-                        <p class="aboutMe__text">The world without photography will be meaningless to us if there is no light and color, which opens up our minds and expresses passion. My photos are inspired by light, color, creative perspective, techniques & personalities.</p>
+                        <p class="aboutMe__text">Every project for me is more than just a shoot. I immerse myself in your story, atmosphere, and meaning to create a video that not only looks beautiful but also works.
+                            I film for businesses, brands, experts, and creators who want to be seen.
+                        </p>
                     </div>
                 </div>
             </div>

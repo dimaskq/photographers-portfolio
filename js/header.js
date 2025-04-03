@@ -1,7 +1,7 @@
 const headerHTML = `
         <div class="header__container">
             <div class="header__logo">
-                <a href="./index.html"><img src="./img/icons/logotest.png" alt="logo" class="logo__img"></a>
+                <a href="./index.html"><img src="./img/icons/logo.png" alt="logo" class="logo__img"></a>
             </div>
             <div class="burger-menu">
 			<a href="#" class="burger-menu__button">
