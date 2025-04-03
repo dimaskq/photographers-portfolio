@@ -754,6 +754,9 @@
   margin-bottom: 15px;
 }
 
+.contact-item p {
+  color: #fff !important;
+}
 .contact-item span {
   display: flex;
   justify-content: center;
@@ -770,8 +773,9 @@
 .contacts-form__container {
   width: 40%;
   align-self: flex-end;
-  margin: -50px 0 0 0;
+  margin: 0 0 50px 0;
 }
+
 #contacts-form {
   display: flex;
   flex-direction: column;
