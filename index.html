@@ -117,11 +117,15 @@
                     <div class="slide__information">
                       <h2
                         class="slide__title animate__animated animate__fadeIn"
+                        data-i18n="slide1-title"
                       >
                         Every frame is like a pulse. When everything is right,
                         you feel alive.
                       </h2>
-                      <p class="slide__text animate__animated animate__fadeIn">
+                      <p
+                        class="slide__text animate__animated animate__fadeIn"
+                        data-i18n="slide1-text"
+                      >
                         A perfect shot is like the right note in music.
                         Everything falls into place when you feel it. That’s the
                         kind of content I create: alive, precise, authentic.
@@ -133,11 +137,15 @@
                     <div class="slide__information">
                       <h2
                         class="slide__title animate__animated animate__fadeIn"
+                        data-i18n="slide2-title"
                       >
                         When a video resonates, it's no longer just an image. It
                         becomes your story.
                       </h2>
-                      <p class="slide__text animate__animated animate__fadeIn">
+                      <p
+                        class="slide__text animate__animated animate__fadeIn"
+                        data-i18n="slide1-text"
+                      >
                         Because real content isn’t about formats and filters.
                         It’s about an atmosphere you want to dive into. My goal
                         is to make every frame leave a lasting impression—so
@@ -154,11 +162,15 @@
                     <div class="slide__information">
                       <h2
                         class="slide__title animate__animated animate__fadeIn"
+                        data-i18n="slide3-title"
                       >
                         I Don’t Just Create Videos. I Create a Feeling the
                         Viewer Wants to Stay In.
                       </h2>
-                      <p class="slide__text animate__animated animate__fadeIn">
+                      <p
+                        class="slide__text animate__animated animate__fadeIn"
+                        data-i18n="slide1-text"
+                      >
                         A powerful video isn’t about technique. It’s about
                         meaning. I create every frame to work for you—to convey
                         the essence, evoke emotion, and leave a mark. Because
@@ -183,12 +195,32 @@
         </div>
         <div id="aboutMe"></div>
         <div class="gallery-controls">
-          <button class="gallery-filter" data-filter="all">All</button>
-          <button class="gallery-filter" data-filter="photo">Photo</button>
-          <button class="gallery-filter" data-filter="video">Video</button>
+          <button
+            class="gallery-filter"
+            data-filter="all"
+            data-i18n="filter-all"
+          >
+            All
+          </button>
+          <button
+            class="gallery-filter"
+            data-filter="photo"
+            data-i18n="filter-photo"
+          >
+            Photo
+          </button>
+          <button
+            class="gallery-filter"
+            data-filter="video"
+            data-i18n="filter-video"
+          >
+            Video
+          </button>
         </div>
         <div class="homeGallary">
-          <h2 class="homeGallary__title">Latest <span>Works</span></h2>
+          <h2 class="homeGallary__title" data-i18n="home-gallery-title">
+            Latest <span>Works</span>
+          </h2>
           <div class="aboutMe__line gallary__line"></div>
           <div class="homeGallary__container">
             <a
@@ -430,6 +462,7 @@
     <script src="./js/aboutMe.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/footer.js"></script>
+    <script src="./js/lang.js"></script>
     <script src="./js/skills.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.umd.js"></script>
   </body>
