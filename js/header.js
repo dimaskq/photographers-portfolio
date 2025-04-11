@@ -3,6 +3,13 @@ const headerHTML = `
             <div class="header__logo">
                 <a href="./index.html"><img src="./img/icons/logo.png" alt="logo" class="logo__img"></a>
             </div>
+            <div class="header__menu_item">
+              <button id="language-toggle" class="language-toggle__burger">
+                <span class="lang" data-lang="en">EN</span> / 
+                <span class="lang" data-lang="ua">UA</span> / 
+                <span class="lang" data-lang="bg">BG</span>
+              </button>
+              </div>
             <div class="burger-menu">
 			<a href="#" class="burger-menu__button">
 				<span class="burger-menu__lines"></span>
@@ -22,6 +29,13 @@ const headerHTML = `
                     <li class="header__menu_item"><a href="about.html" class="header__menu_link">About</a></li>
                     <li class="header__menu_item"><a href="gallery.html" class="header__menu_link">Gallery</a></li>
                     <li class="header__menu_item"><a href="contact.html" class="header__menu_link">Contact</a></li>
+                    <li class="header__menu_item">
+                      <button id="language-toggle">
+                        <span class="lang" data-lang="en">EN</span> / 
+                        <span class="lang" data-lang="ua">UA</span> / 
+                        <span class="lang" data-lang="bg">BG</span>
+                      </button>
+                    </li>
                 </ul>
             </nav>
         </div>

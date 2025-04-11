@@ -163,6 +163,7 @@
 .header__menu_container {
   display: flex;
   gap: 15px;
+  align-items: center;
 }
 
 .header__menu_link {
@@ -178,6 +179,23 @@
   transition: 0.3s all ease;
 }
 
+.header__menu_item button {
+  background-color: #00000000;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #dfdcdc;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.language-toggle__burger {
+  display: none !important;
+}
+
+.active-lang {
+  color: #ff9500;
+}
 /* ===============BANER=================== */
 .baner {
   height: 100vh;
