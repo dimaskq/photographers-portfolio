@@ -157,4 +157,15 @@
   .gallery-controls {
     margin: 20px 0 0 0;
   }
+
+  .language-toggle__burger {
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header__menu_item {
+    width: 100%;
+    justify-content: center;
+  }
 }

@@ -9,7 +9,7 @@ const footerHTML = `<ul class="footer-links">
                         <div><a href="./index.html"><img src="./img/icons/logo.png" alt="logo" class="logo__img"></a></div>                     </div>
                 </div>
                 <div class="footer__center">
-                    <h2 class="footer__latestWorks footer__title">Latest Photos</h2>
+                    <h2 class="footer__latestWorks footer__title" data-i18n="home-gallery-title">Latest Photos</h2>
                     <div class="aboutMe__line footer__line"></div>
                     <div class="footer__gallery">
                         <a data-fancybox="gallery" href="./img/gallery/IMG_1528.JPG">
@@ -27,7 +27,7 @@ const footerHTML = `<ul class="footer-links">
                     </div>
                 </div>
                 <div class="footer__rightSide">
-                    <h2 class="footer__contacts footer__title">Contacts</h2>
+                    <h2 class="footer__contacts footer__title" data-i18n="footer-contacts-title">Contacts</h2>
                     <div class="aboutMe__line footer__line"></div>
                     <div class="footer__contact">
                         <p class="footer__contacts_phone"><span>Phone:</span> +359 877869931</p>
