@@ -151,7 +151,7 @@ const translations = {
     "video-fallback": "Вашият браузър не поддържа видео таг.",
     "aboutme-title": "За мен",
     "aboutme-subtitle":
-      "Казвам се Оксана Мануиликова, аз съм <span>създател на съдържание, видеограф</span>",
+      "Казвам се Оксана Мануйликова, аз съм <span>създател на съдържание, видеограф</span>",
     "aboutme-text":
       "Всеки проект за мен е нещо повече от просто снимане. Потъвам във вашата история, атмосфера и смисъл, за да създам видео, което не само изглежда красиво, но и работи. Снимам за бизнеси, брандове, експерти и креатори, които искат да бъдат видими.",
     "home-gallery-title": "Последни <span>проекти</span>",
@@ -201,7 +201,7 @@ const translations = {
   },
 };
 
-let currentLang = localStorage.getItem("lang") || "en";
+let currentLang = localStorage.getItem("lang") || "bg";
 const languages = ["en", "ua", "bg"];
 
 document.addEventListener("DOMContentLoaded", () => {
