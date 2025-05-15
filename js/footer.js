@@ -12,17 +12,17 @@ const footerHTML = `<ul class="footer-links">
                     <h2 class="footer__latestWorks footer__title" data-i18n="home-gallery-title">Latest Photos</h2>
                     <div class="aboutMe__line footer__line"></div>
                     <div class="footer__gallery">
-                        <a data-fancybox="gallery" href="./img/gallery/IMG_1528.JPG">
-                            <img src="./img/gallery/IMG_1528.JPG" alt="gallery item" class="footer__gallery_item">
+                        <a data-fancybox="gallery" href="./img/gallery/IMG_1528.jfif">
+                            <img src="./img/gallery/IMG_1528.jfif" alt="gallery item" class="footer__gallery_item">
                         </a>
                         <a data-fancybox="gallery" href="./img/gallery/photo_2025-04-01_20-15-38.jpg">
                             <img src="./img/gallery/photo_2025-04-01_20-15-38.jpg" alt="gallery item" class="footer__gallery_item">
                         </a>
-                        <a data-fancybox="gallery" href="./img/gallery/IMG_2136.JPG">
-                            <img src="./img/gallery/IMG_2136.JPG" alt="gallery item" class="footer__gallery_item">
+                        <a data-fancybox="gallery" href="./img/gallery/IMG_2136.jfif">
+                            <img src="./img/gallery/IMG_2136.jfif" alt="gallery item" class="footer__gallery_item">
                         </a>
-                        <a data-fancybox="gallery" href="./img/gallery/IMG_2284.JPG" class = "footer__last_img">
-                            <img src="./img/gallery/IMG_2284.JPG" alt="gallery item" class="footer__gallery_item">
+                        <a data-fancybox="gallery" href="./img/gallery/IMG_2284.jfif" class = "footer__last_img">
+                            <img src="./img/gallery/IMG_2284.jfif" alt="gallery item" class="footer__gallery_item">
                         </a>
                     </div>
                 </div>
