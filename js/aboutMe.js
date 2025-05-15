@@ -2,7 +2,7 @@ const aboutHTML = `<div class="aboutMe">
                 <div class="aboutMe__container">
                     <div class="aboutMe__img_container">
                         <div class="aboutMe__img_box "  data-aos="fade-right">
-                            <img src="./img/gallery/IMG_9832.JPG" alt="about me img" class="aboutMe__img">
+                            <img src="./img/gallery/IMG_9832.webp" alt="about me img" class="aboutMe__img">
                         </div>
                     </div>
                     <div class="aboutMe__info"  data-aos="fade-left">
