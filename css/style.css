@@ -1,10 +1,7 @@
-/* =======HEADER========= */
-
 .burger-menu {
   display: none;
   position: relative;
 }
-
 .burger-menu__button {
   position: absolute;
   top: 10px;
@@ -15,54 +12,47 @@
   border-radius: 50%;
   transition: 0.4s;
 }
-
 .burger-menu__lines,
 .burger-menu__lines::after,
 .burger-menu__lines::before {
   position: absolute;
   width: 32px;
   height: 3px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 3px;
 }
-
 .burger-menu__lines {
-  background: #ffffff;
+  background: #fff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 3px;
 }
-
 .burger-menu__lines::before {
   content: "";
   top: -6px;
-  background: #ffffff;
+  background: #fff;
 }
-
 .burger-menu__lines::after {
   content: "";
   top: 6px;
-  background: #ffffff;
+  background: #fff;
   color: #fff;
 }
 .burger-menu_active .burger-menu__button,
 .burger-menu_active .burger-menu__lines {
-  background-color: transparent;
+  background-color: #fff0;
 }
-
 .burger-menu_active .burger-menu__lines::before {
   top: 0;
   transform: rotate(45deg);
   background: #fff;
 }
-
 .burger-menu_active .burger-menu__lines::after {
   top: 0;
   transform: rotate(-45deg);
   background: #fff;
 }
-
 .burger-menu__nav {
   width: 100%;
   padding-top: 80px;
@@ -80,11 +70,9 @@
   flex-direction: column;
   align-items: center;
 }
-
 .burger-menu_active .burger-menu__nav {
   right: 0;
 }
-
 .burger-menu__link {
   padding: 30px;
   font-family: "FortuneC";
@@ -92,14 +80,12 @@
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
 }
-
 .burger-menu__link :hover {
   filter: brightness(0.7);
 }
-
 .burger-menu__overlay {
   display: none;
   position: fixed;
@@ -112,7 +98,6 @@
 .burger-menu_active .burger-menu__overlay {
   display: block;
 }
-
 #header {
   position: absolute;
   left: 0;
@@ -120,7 +105,6 @@
   z-index: 2;
   width: 100%;
 }
-
 @keyframes slideDown {
   0% {
     transform: translateY(-100%);
@@ -131,7 +115,6 @@
     opacity: 1;
   }
 }
-
 #header.sticky {
   position: fixed;
   top: 0;
@@ -139,10 +122,9 @@
   width: 100%;
   z-index: 1000;
   background-color: #2a2a2a;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.1);
   animation: slideDown 0.5s ease-out;
 }
-
 .header__container {
   width: 80%;
   display: flex;
@@ -151,21 +133,17 @@
   margin: 0 auto;
   position: relative;
 }
-
 .header__logo {
   flex-grow: 1;
 }
-
 .header__logo img {
   width: 7%;
 }
-
 .header__menu_container {
   display: flex;
   gap: 15px;
   align-items: center;
 }
-
 .header__menu_link {
   text-transform: uppercase;
   color: #dfdcdc;
@@ -173,14 +151,12 @@
   transition: 0.3s all ease;
   font-family: 600;
 }
-
 .header__menu_link:hover {
   color: #fff;
   transition: 0.3s all ease;
 }
-
 .header__menu_item button {
-  background-color: #00000000;
+  background-color: #0000;
   text-transform: uppercase;
   font-size: 1rem;
   color: #dfdcdc;
@@ -188,24 +164,19 @@
   flex-wrap: nowrap;
   gap: 10px;
 }
-
 .language-toggle__burger {
   display: none !important;
 }
-
 .active-lang {
   color: #ff9500;
 }
-/* ===============BANER=================== */
 .baner {
   height: 100vh;
   position: relative;
 }
-
 .baner__container {
   display: flex;
 }
-
 .baner__leftSide {
   position: absolute;
   top: 0;
@@ -216,23 +187,19 @@
   align-items: center;
   z-index: 2;
 }
-
 .baner__rightSide {
   position: relative;
   overflow: hidden;
 }
-
 .baner__leftSide_menu {
   display: flex;
   justify-content: flex-end;
 }
-
 .leftSide__menu_list {
   display: flex;
   transform: rotate(-90deg);
   gap: 20px;
 }
-
 .leftSide__menu_link {
   color: #dfdcdc;
   transition: 0.3s all ease;
@@ -240,12 +207,10 @@
   font-weight: 500;
   line-height: 1.3rem;
 }
-
 .leftSide__menu_link:hover {
   color: #cd8810;
   transition: 0.3s all ease;
 }
-
 .leftSide__menu_instagram::after {
   content: "";
   display: inline-block;
@@ -257,22 +222,17 @@
   margin-bottom: 2px;
   justify-content: flex-end;
 }
-
 .logo__img {
   width: 5%;
 }
-
 .leftSide__menu_link span {
   margin: 0 10px 0 0;
 }
-
-/* ================ ABOUTME ==================== */
 #aboutMe {
   background-color: #232526;
   width: 100vw;
   overflow: hidden;
 }
-
 .aboutMe__container {
   display: flex;
   width: 100%;
@@ -280,14 +240,12 @@
   margin: 0 auto;
   padding: 5% 0;
 }
-
 .aboutMe__img_container {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .aboutMe__img_box {
   width: 100%;
   max-width: 450px;
@@ -296,24 +254,20 @@
   border-radius: 50%;
   margin: 0 5%;
 }
-
 .aboutMe__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .aboutMe__info {
   flex: 1;
   padding: 20px;
 }
-
 .aboutMe__containerTitle,
 .aboutMe__title,
 .aboutMe__text {
   margin: 10px 0;
 }
-
 .aboutMe__containerTitle {
   color: #ff9500;
   text-transform: uppercase;
@@ -322,38 +276,30 @@
   margin: 0 0 5% 0;
   line-height: 1.3rem;
 }
-
 .aboutMe__title {
   color: #fff;
   font-size: 3rem;
   font-weight: 600;
   font-family: "Open Sans";
 }
-
 .aboutMe__title span {
   color: #ff9500;
 }
-
 .aboutMe__text {
   color: #e2e2e2;
   font-size: 1.5rem;
   line-height: 2rem;
 }
-
 .aboutMe__line {
   width: 25px;
   height: 1px;
   background-color: #7f7f7f;
   margin: 20px 0;
 }
-
-/* ==============AboutPage================= */
 .about {
   background-color: #000;
   overflow: hidden;
 }
-
-/* =================AboutPortfolio================== */
 .aboutPortfolio {
   width: 100vw;
 }
@@ -364,62 +310,51 @@
   margin: 0 auto;
   padding: 8% 0;
 }
-
 .aboutPortfolio__photo_container {
   max-width: 100%;
   max-height: 500px;
   overflow: hidden;
   position: relative;
 }
-
 .aboutPortfolio__photo {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
   object-position: bottom right;
 }
-
 .aboutPortfolio__photo_containerSkills {
   width: 100vw;
   max-height: 100vh;
   overflow: hidden;
   position: relative;
 }
-
 .aboutPortfolio__photo_skills {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center 65%;
 }
-
 .aboutPortfolio__info {
   background: #141313;
 }
-
 .aboutMe__text_2 {
-  color: #bbbbbb;
+  color: #bbb;
   font-size: 0.8rem;
   line-height: 1.1rem;
   font-family: "Open Sans";
 }
-
 .aboutMe__page_text {
   font-size: 1.5rem;
   line-height: 1.8rem;
   font-family: "Open Sans";
 }
-
 .aboutMe__page_text2 {
   font-size: 1rem;
 }
-
-/* ================Skills ================== */
 .skills {
   width: 100vw;
   padding: 3% 0;
 }
-
 .skills__container {
   display: flex;
   max-width: 1280px;
@@ -427,28 +362,23 @@
   width: 70%;
   height: 780px;
 }
-
 .skills_title {
   color: #fff;
   font-size: 3rem;
   font-weight: 800;
 }
-
 .skills__info {
   background: #141313;
   padding: 2% 4%;
   width: 100%;
 }
-
 .skills__boxes_container {
   max-height: 780px;
   overflow-y: auto;
 }
-
 .skills_title span {
   color: #ff9500;
 }
-
 .skill__background {
   stroke: #2d2d2d;
 }
@@ -460,28 +390,24 @@
     stroke-dashoffset: var(--offset);
   }
 }
-
 .skill__progress {
   stroke: #d4a15a;
   stroke-dasharray: 282.6;
   animation: fillAnimation 2s ease-in-out forwards;
   transition: stroke-dashoffset 0.5s ease-in-out;
 }
-
 .skill__percentage {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 0.8rem;
-  font-weight: bold;
+  font-weight: 700;
   color: #d4a15a;
 }
-
 .skill__information {
   max-width: 60%;
 }
-
 .skill__name {
   font-size: 1.5rem;
   font-weight: 600;
@@ -490,28 +416,23 @@
   text-transform: uppercase;
   margin: 10px 0;
 }
-
 .skill__description {
   font-size: 1rem;
   margin: 5px 0 0;
-  color: #cccccc;
+  color: #ccc;
   font-family: "Open Sans";
   line-height: 1.3rem;
 }
-
-/* =================HomeGallery===================== */
 .homeGallary {
   width: 100vw;
   background-color: #000;
   display: flex;
   flex-direction: column;
 }
-
 .gallary__line {
   align-self: center;
   margin: 1% 0 5% 0;
 }
-
 .homeGallary__title {
   font-size: 2rem;
   font-weight: 700;
@@ -519,11 +440,9 @@
   color: #fff;
   text-align: center;
 }
-
 .homeGallary__title span {
   color: #ff9500;
 }
-
 .homeGallery__item {
   width: 100%;
   max-width: 350px;
@@ -531,25 +450,21 @@
   object-fit: cover;
   transition: width 0.3s ease-in-out;
 }
-
 .homeGallary__container {
   columns: 350px;
   padding: 1%;
 }
-
 .homeGallary__container img {
   max-width: 100%;
   height: auto;
   break-inside: avoid;
   display: inline-block;
 }
-
 .homeGallery__video-container {
   position: relative;
   display: inline-block;
   cursor: pointer;
 }
-
 .homeGallery__video-container::after {
   content: "";
   position: absolute;
@@ -557,14 +472,13 @@
   left: 50%;
   width: 60px;
   height: 60px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgb(0 0 0 / 0.6);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   transform: translate(-50%, -50%);
 }
-
 .homeGallery__video-container::before {
   content: "";
   position: absolute;
@@ -572,44 +486,36 @@
   left: 50%;
   width: 0;
   height: 0;
-  border-left: 20px solid white;
-  border-top: 12px solid transparent;
-  border-bottom: 12px solid transparent;
+  border-left: 20px solid #fff;
+  border-top: 12px solid #fff0;
+  border-bottom: 12px solid #fff0;
   transform: translate(-40%, -50%);
   z-index: 2;
 }
-
-/* =====================Footer======================= */
 #footer {
   width: 100vw;
   background-color: #232323;
   color: #acaaaa;
 }
-
 .footer__container {
   max-width: 1280px;
   display: flex;
   margin: 2% auto;
   padding: 1%;
 }
-
 .footer__leftSide {
   width: 33%;
   margin: 0 30px 0 0;
 }
-
 .footer__logo img {
   width: 60%;
 }
-
 .footer__leftSide_text {
   margin: 25px 0 0 0;
 }
-
 .footer__center {
   margin: 0 30px 0 0;
 }
-
 .footer__title {
   font-size: 1.5rem;
   line-height: 1.8rem;
@@ -619,7 +525,6 @@
 .footer__line {
   background-color: #ff9500;
 }
-
 .footer__center {
   width: 33%;
 }
@@ -628,39 +533,32 @@
   gap: 2%;
   flex-wrap: nowrap;
 }
-
 .footer__gallery_item {
   width: 80px;
   height: 80px;
   object-fit: cover;
 }
-
 .footer__rightSide {
   display: flex;
   flex-direction: column;
 }
-
 .footer__contact {
   display: flex;
   flex-direction: column;
   gap: 5px;
   margin: 0 0 25px 0;
 }
-
 .footer__contact span {
   margin-right: 10px;
 }
-
 .copyright {
   font-size: 0.8rem;
   line-height: 1.1rem;
 }
-
 .footer__leftSide_text {
   font-size: 1rem;
   line-height: 1.3rem;
 }
-
 .footer-links {
   width: 100%;
   display: flex;
@@ -669,17 +567,14 @@
   background: #151515;
   padding: 20px 0;
 }
-
 .footer-links a {
   color: #fff;
   font-size: 1rem;
   font-weight: 400;
 }
-
 .footer-links a:hover {
   color: #cd8810;
 }
-
 .leftSide__menu_tiktok::after {
   content: "";
   display: inline-block;
@@ -691,21 +586,16 @@
   margin-bottom: 2px;
   justify-content: flex-end;
 }
-
-/* ============================= Gallery =============================== */
-
 .gallery {
   padding: 10% 0 0 0;
   background-color: #000;
 }
-
 .gallery__container {
   max-width: 1080px;
   margin: 0 auto;
   columns: 300px;
   padding: 1%;
 }
-
 .gallery__title {
   text-align: center;
   color: #fff;
@@ -714,64 +604,52 @@
   font-weight: 800;
   margin: 0 0 3% 0;
 }
-
-/* ========================Contact ======================== */
 .contacts {
   width: 100vw;
   height: auto;
   color: #fff;
 }
-
 .contacts__wrapper {
   width: 1080px;
   margin: 8% auto;
 }
-
 .contacts__title {
   font-size: 3rem;
   font-weight: 600;
   margin: 0 0 4% 0;
 }
-
 .contacts__container {
   display: flex;
 }
-
 .contacts__leftSide {
   display: flex;
   gap: 5%;
   max-width: 66.6%;
   flex-grow: 1;
 }
-
 .contacts {
   padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .contacts__text {
   margin-bottom: 30px;
 }
-
 .contacts__description {
   margin-bottom: 10px;
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
-
 .contacts__details {
   font-size: 1rem;
   line-height: 1.3rem;
 }
-
 .contact-item {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
-
 .contact-item p {
   color: #fff !important;
 }
@@ -787,19 +665,16 @@
   font-weight: 200;
   margin: 0 10px 0 0;
 }
-
 .contacts-form__container {
   width: 40%;
   align-self: flex-end;
   margin: 0 0 50px 0;
 }
-
 #contacts-form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-
 #contacts-form input,
 #contacts-form textarea {
   width: 100%;
@@ -807,25 +682,22 @@
   font-size: 1rem;
   border: none;
   border-bottom: 1px solid #fff;
-  background: transparent;
+  background: #fff0;
   color: #fff;
   outline: none;
   text-align: center;
 }
-
 #contacts-form input::placeholder,
 #contacts-form textarea::placeholder {
   color: #aaa;
 }
-
 #contacts-form textarea {
   resize: none;
   height: 100px;
 }
-
 #contacts-form button {
   padding: 10px 20px;
-  background-color: transparent;
+  background-color: #fff0;
   color: #fff;
   border: 1px solid #cd8810;
   border-radius: 5px;
@@ -835,89 +707,79 @@
   max-width: 30%;
   align-self: center;
 }
-
 #contacts-form button:hover {
   background-color: #cd8810;
 }
-
 .aboutMe__text_title {
   font-size: 1.2rem;
 }
-
 .aboutMe__info_text ul {
   margin: 10px 0 30px 40px;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-
 .aboutMe__info_text ul li {
   list-style: square !important;
   font-size: 1.1rem;
 }
-
 .aboutMe__info_text {
   display: flex;
   gap: 40px;
 }
-
 .skills__boxes_info {
   font-size: 1.2rem;
   margin-bottom: 20px;
   line-height: 120%;
 }
-
 .skills__boxes_infoTitile {
   font-size: 1.4rem;
   margin-bottom: 15px;
 }
-
 .skills__boxes_list {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin: 0 0 20px 0;
 }
-
 .skills__boxes_list li {
   margin: 0 0 0 40px;
   font-size: 1.2rem;
   line-height: 120%;
   list-style: square;
 }
-
 .skills__boxes_conclusion {
   font-size: 1.2rem;
   line-height: 120%;
 }
-
 .gallery-controls {
   display: flex;
   gap: 10px;
   margin: 100px 0 0 0;
   justify-content: center;
 }
-
 .gallery-filter {
   font-size: 1.2rem;
   padding: 8px 15px;
   border: none;
-  background: #33333300;
+  background: #3330;
   color: #fff;
   cursor: pointer;
   border-radius: 5px;
   text-transform: uppercase;
 }
-
 .gallery-filter:hover {
   color: #dfdcdc;
   transition: 0.3s all ease;
 }
-
 .homeGallary__container a {
   display: block;
 }
-
 .hidden {
   display: none !important;
+}
+
+.main-title {
+  visibility: hidden;
+  position: absolute;
 }
