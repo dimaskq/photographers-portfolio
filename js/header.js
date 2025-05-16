@@ -17,7 +17,7 @@ const headerHTML = `
 				 
 			<nav class="burger-menu__nav">
 			 	<a href="./index.html" class="burger-menu__link">Home</a>
-		 		<a href="./about.html" class="burger-menu__link">About</a>
+		 		<a href="https://oksanamanuilikova.netlify.app/about" class="burger-menu__link">About</a>
 		 		<a href="./gallery.html" class="burger-menu__link">Gallery</a>
 			 	<a href="./contact.html" class="burger-menu__link">Contacts</a>
 			</nav>
