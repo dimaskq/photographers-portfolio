@@ -16,11 +16,11 @@ const aboutHTML = `<div class="aboutMe">
                 </div>
             </div>
 `;
-
 const aboutMeElement = document.getElementById("aboutMe");
 aboutMeElement.insertAdjacentHTML("afterbegin", aboutHTML);
-
-AOS.init({
-  once: true,
-  duration: 700,
+window.addEventListener("load", function () {
+  AOS.init({
+    once: true,
+    duration: 700,
+  });
 });
