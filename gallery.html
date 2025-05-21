@@ -31,7 +31,62 @@
   </head>
   <body>
     <div class="wrapper">
-      <header id="header"></header>
+      <header id="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <a href="./index.html"
+              ><img src="./img/icons/logo.png" alt="logo" class="logo__img"
+            /></a>
+          </div>
+          <div class="header__menu_item">
+            <button id="language-toggle" class="language-toggle__burger">
+              <span class="lang" data-lang="en">EN</span> /
+              <span class="lang" data-lang="ua">UA</span> /
+              <span class="lang" data-lang="bg">BG</span>
+            </button>
+          </div>
+          <div class="burger-menu">
+            <a href="#" class="burger-menu__button">
+              <span class="burger-menu__lines"></span>
+            </a>
+
+            <nav class="burger-menu__nav">
+              <a href="./index.html" class="burger-menu__link">Home</a>
+              <a
+                href="https://oksanamanuilikova.netlify.app/about"
+                class="burger-menu__link"
+                >About</a
+              >
+              <a href="./gallery.html" class="burger-menu__link">Gallery</a>
+              <a href="./contact.html" class="burger-menu__link">Contacts</a>
+            </nav>
+            <div class="burger-menu__overlay"></div>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__menu_container">
+              <li class="header__menu_item">
+                <a href="index.html" class="header__menu_link">Home</a>
+              </li>
+              <li class="header__menu_item">
+                <a href="about.html" class="header__menu_link">About</a>
+              </li>
+              <li class="header__menu_item">
+                <a href="gallery.html" class="header__menu_link">Gallery</a>
+              </li>
+              <li class="header__menu_item">
+                <a href="contact.html" class="header__menu_link">Contact</a>
+              </li>
+              <li class="header__menu_item">
+                <button id="language-toggle">
+                  <span class="lang" data-lang="en">EN</span> /
+                  <span class="lang" data-lang="ua">UA</span> /
+                  <span class="lang" data-lang="bg">BG</span>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
       <main class="main">
         <div class="gallery">
           <h3 class="gallery__title">Gallery</h3>
@@ -274,12 +329,110 @@
           </div>
         </div>
       </main>
-      <footer id="footer"></footer>
+      <footer id="footer">
+        <ul class="footer-links">
+          <li class="leftSide__menu_item leftSide__menu_instagram">
+            <a
+              href="https://www.instagram.com/manuilikova_oksana?igsh=MTVwNmd5Z2dpZ2d3NA=="
+              class="leftSide__menu_link"
+              ><span class="icon-instagram"></span>Instagram</a
+            >
+          </li>
+          <li class="leftSide__menu_item leftSide__menu_tiktok">
+            <a
+              href="https://www.tiktok.com/@oksana.manuilikov?_t=ZM-8t0XC9umWPO&_r=1"
+              class="leftSide__menu_link"
+              ><span class="icon-tiktok"></span>Tik-Tok</a
+            >
+          </li>
+          <li class="leftSide__menu_item leftSide__menu_telegram">
+            <a href="https://t.me/oksanamanuilikova" class="leftSide__menu_link"
+              ><span class="icon-telegram"></span>Telegram</a
+            >
+          </li>
+        </ul>
+        <div class="footer__container">
+          <div class="footer__leftSide">
+            <div class="footer__logo">
+              <div>
+                <a href="./index.html"
+                  ><img src="./img/icons/logo.png" alt="logo" class="logo__img"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__center">
+            <h2
+              class="footer__latestWorks footer__title"
+              data-i18n="home-gallery-title"
+            >
+              Latest Photos
+            </h2>
+            <div class="aboutMe__line footer__line"></div>
+            <div class="footer__gallery">
+              <a data-fancybox="gallery" href="./img/gallery/IMG_1528.webp">
+                <img
+                  src="./img/gallery/IMG_1528.webp"
+                  alt="gallery item"
+                  class="footer__gallery_item"
+                />
+              </a>
+              <a
+                data-fancybox="gallery"
+                href="./img/gallery/photo_2025-04-01_20-15-38.webp"
+              >
+                <img
+                  src="./img/gallery/photo_2025-04-01_20-15-38.webp"
+                  alt="gallery item"
+                  class="footer__gallery_item"
+                />
+              </a>
+              <a data-fancybox="gallery" href="./img/gallery/IMG_2136.webp">
+                <img
+                  src="./img/gallery/IMG_2136.webp"
+                  alt="gallery item"
+                  class="footer__gallery_item"
+                />
+              </a>
+              <a
+                data-fancybox="gallery"
+                href="./img/gallery/IMG_2284.webp"
+                class="footer__last_img"
+              >
+                <img
+                  src="./img/gallery/IMG_2284.webp"
+                  alt="gallery item"
+                  class="footer__gallery_item"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="footer__rightSide">
+            <h2
+              class="footer__contacts footer__title"
+              data-i18n="footer-contacts-title"
+            >
+              Contacts
+            </h2>
+            <div class="aboutMe__line footer__line"></div>
+            <div class="footer__contact">
+              <p class="footer__contacts_phone">
+                <span>Phone:</span> +359 877869931
+              </p>
+              <p class="footer__contacts_email">
+                <span>E-mail:</span> oksanamanuilikova@gmail.com
+              </p>
+            </div>
+            <p class="copyright">
+              Copyright © 2025 Oksana Manuilikova. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
+    <script src="./js/header.js" defer></script>
 
     <script src="./js/gallery.js"></script>
-    <script src="./js/header.js"></script>
-    <script src="./js/footer.js"></script>
     <script src="./js/lang.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.umd.js"></script>
   </body>

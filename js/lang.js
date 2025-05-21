@@ -200,17 +200,13 @@ const translations = {
       "Този сетъп ми позволява да бъда гъвкава и креативна — създавайки съдържание, което изглежда истинско, стилно и приковаващо вниманието.",
   },
 };
-
 let currentLang = localStorage.getItem("lang") || "bg";
 const languages = ["en", "ua", "bg"];
-
 document.addEventListener("DOMContentLoaded", () => {
   const toggleBtn = document.getElementById("language-toggle");
   if (!toggleBtn) return;
-
   updateLangHighlight();
   applyTranslations();
-
   const langButtons = document.querySelectorAll("#language-toggle .lang");
   langButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -221,7 +217,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
 function updateLangHighlight() {
   document.querySelectorAll("#language-toggle .lang").forEach((span) => {
     const lang = span.getAttribute("data-lang");
@@ -232,7 +227,6 @@ function updateLangHighlight() {
     }
   });
 }
-
 function applyTranslations() {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
@@ -241,7 +235,6 @@ function applyTranslations() {
       el.innerHTML = translatedText;
     }
   });
-
   const fallback = document.querySelector("video");
   if (fallback) {
     const translatedFallback = translations[currentLang]?.["video-fallback"];
