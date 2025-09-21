@@ -15,6 +15,7 @@ const translations = {
     "filter-all": "Усе",
     "filter-photo": "Фото",
     "filter-video": "Відео",
+    "filter-drone": "Відо з дрону",
     "video-fallback": "Ваш браузер не підтримує відеотег.",
     "aboutme-title": "Про мене",
     "aboutme-subtitle":
@@ -30,14 +31,12 @@ const translations = {
     format1Li2: "Зйомка на локації / у приміщенні / на вулиці",
     format1Li3: "Тривалість зйомки: 1–2 години",
     format1Li4: "Готовий матеріал: 2–5 вертикальних відео",
-    format1Li5: "Ціна: від 150 лв",
 
     format2Title: "2. Персональні зйомки (для експертів, блогерів, бізнесу)",
     format2Li1: "Створення візуального образу + емоційного настрою",
     format2Li2: "Відео + фото (за бажанням)",
     format2Li3: "Тривалість зйомки: 2 години",
     format2Li4: "Готовий матеріал: 3–6 відео + 10–15 фото",
-    format2Li5: "Ціна: від 250 лв",
 
     format3Title: "3. Фотозйомка бренду/продукту",
     format3Li1: "Відео для реклами, презентації або сторінки бренду",
@@ -45,23 +44,22 @@ const translations = {
       "Крупні, середні та детальні плани, естетика + фокус на продукт",
     format3Li3: "Тривалість зйомки: 2–4 години",
     format3Li4: "Готовий матеріал: 1–3 відео (горизонтальні або вертикальні)",
-    format3Li5: "Ціна: від 300 лв",
 
     format4Title: "4. Індивідуальні проєкти / запити 'під ключ'",
     format4Li1: "Якщо у тебе є ідея — я допоможу її реалізувати",
     format4Li2: "Написання сценарію, підбір локацій, зйомка, монтаж",
-    format4Li3: "Ціна: договірна, залежить від складності",
     "skills-title": "Мій <span>сетап</span>",
     "skills-description":
       "Я знімаю на iPhone 15 Pro Max, використовуючи всі можливості мобільного контенту. Мій сетап — компактний, гнучкий і повністю готовий до створення чіткого, динамічного та естетичного відео — будь-де й будь-коли.",
     "skills-gear-title": "Моя поточна техніка:",
-    "skills-gear-camera": "Камера: iPhone 15 Pro Max",
+    "skills-gear-camera": "Камера: iPhone 15 Pro Max, Sony Alpha 6400",
     "skills-gear-stabilizer":
       "Стабілізатор: DJI Osmo Mobile 6 — для плавного, кінематографічного руху",
     "skills-gear-audio":
       "Аудіо: бездротовий мікрофон DJI — чистий звук без шуму",
     "skills-gear-editing":
       "Постпродакшн: професійний монтаж і кольорокорекція для передачі настрію та історії",
+    "skills-gear-microphone": "Мікрофон: DJI Mic Mini",
     "skills-conclusion":
       "Такий сетап дає мені змогу залишатися мобільною та креативною — створюючи живий, стильний та ефектний контент.",
   },
@@ -81,6 +79,8 @@ const translations = {
     "filter-all": "All",
     "filter-photo": "Photo",
     "filter-video": "Video",
+    "filter-drone": "Drone Vedeo",
+
     "video-fallback": "Your browser does not support the video tag.",
     "aboutme-title": "About Me",
     "aboutme-subtitle":
@@ -96,7 +96,6 @@ const translations = {
     format1Li2: "Filming on location / indoors / outdoors",
     format1Li3: "Shooting duration: 1–2 hours",
     format1Li4: "Finished material: 2–5 vertical videos",
-    format1Li5: "Price: from 150lv",
 
     format2Title:
       "2. Personal content shooting (for experts, bloggers, businesses)",
@@ -104,7 +103,6 @@ const translations = {
     format2Li2: "Video + photo (optional)",
     format2Li3: "Shooting duration: 2 hours",
     format2Li4: "Finished material: 3–6 videos + 10–15 photos",
-    format2Li5: "Price: from 250lv.",
 
     format3Title: "3. Brand/product photography",
     format3Li1: "Video for advertising, presentation or brand page",
@@ -112,23 +110,22 @@ const translations = {
       "Close-ups, medium and detailed shots, aesthetics + product focus",
     format3Li3: "Shooting duration: 2–4 hours",
     format3Li4: "Finished material: 1–3 videos (horizontal or vertical)",
-    format3Li5: "Price: from 300lv",
 
     format4Title: "4. Individual projects / turnkey requests",
     format4Li1: "If you have an idea, I will help you visualize it.",
     format4Li2: "Script creation, location selection, filming, editing",
-    format4Li3: "Price: negotiable, depending on complexity",
     "skills-title": "My <span>Setup</span>",
     "skills-description":
       "I shoot with the iPhone 15 Pro Max, using the full power of mobile content creation. My setup is compact, flexible, and fully capable of producing sharp, dynamic, and aesthetic visuals — anytime, anywhere.",
     "skills-gear-title": "My current gear:",
-    "skills-gear-camera": "Camera: iPhone 15 Pro Max",
+    "skills-gear-camera": "Camera: iPhone 15 Pro Max, Sony Alpha 6400",
     "skills-gear-stabilizer":
       "Stabilizer: DJI Osmo Mobile 6 — for smooth, cinematic movement",
     "skills-gear-audio":
       "Audio: DJI wireless microphone — crystal-clear sound without background noise",
     "skills-gear-editing":
       "Post-production: Pro editing & color grading to keep the mood and tell your story visually",
+    "skills-gear-microphone": "Microphone: DJI Mic Mini",
     "skills-conclusion":
       "This setup lets me stay agile and creative — capturing content that feels real, stylish, and scroll-stopping.",
   },
@@ -148,6 +145,8 @@ const translations = {
     "filter-all": "Всички",
     "filter-photo": "Снимки",
     "filter-video": "Видео",
+    "filter-drone": "Видео с дрон",
+
     "video-fallback": "Вашият браузър не поддържа видео таг.",
     "aboutme-title": "За мен",
     "aboutme-subtitle":
@@ -163,15 +162,12 @@ const translations = {
       "Динамични видеа, които привличат вниманието от първата секунда",
     format1Li2: "Заснемане на локация / на закрито / на открито",
     format1Li3: "Продължителност на снимките: 1–2 часа",
-    format1Li4: "Готов материал: 2–5 вертикални видеа",
-    format1Li5: "Цена: от 150 лв",
 
     format2Title: "2. Лични снимки (за експерти, блогъри, бизнеси)",
     format2Li1: "Създаване на визуален образ + емоционално настроение",
     format2Li2: "Видео + снимки (по избор)",
     format2Li3: "Продължителност: 2 часа",
     format2Li4: "Готов материал: 3–6 видеа + 10–15 снимки",
-    format2Li5: "Цена: от 250 лв",
 
     format3Title: "3. Фотозаснемане на марка/продукт",
     format3Li1: "Видео за реклама, презентация или страница на марката",
@@ -179,23 +175,22 @@ const translations = {
       "Близки, средни и детайлни кадри, естетика + фокус върху продукта",
     format3Li3: "Продължителност: 2–4 часа",
     format3Li4: "Готов материал: 1–3 видеа (хоризонтални или вертикални)",
-    format3Li5: "Цена: от 300 лв",
 
     format4Title: "4. Индивидуални проекти / цялостни заявки",
     format4Li1: "Ако имаш идея — ще ти помогна да я визуализираш",
     format4Li2: "Създаване на сценарий, избор на локации, снимане, монтаж",
-    format4Li3: "Цена: по договаряне, според сложността",
     "skills-title": "Моят <span>сетъп</span>",
     "skills-description":
       "Снимам с iPhone 15 Pro Max, използвайки цялата сила на мобилното създаване на съдържание. Моят сетъп е компактен, гъвкав и напълно способен да създава ясни, динамични и естетични кадри — навсякъде и по всяко време.",
     "skills-gear-title": "Текущото ми оборудване:",
-    "skills-gear-camera": "Камера: iPhone 15 Pro Max",
+    "skills-gear-camera": "Камера: iPhone 15 Pro Max, Sony Alpha 6400",
     "skills-gear-stabilizer":
       "Стабилизатор: DJI Osmo Mobile 6 — за плавни, кинематографични движения",
     "skills-gear-audio":
       "Аудио: безжичен микрофон DJI — кристално ясен звук без шум",
     "skills-gear-editing":
       "Постпродукция: професионален монтаж и цветови корекции за запазване на настроението и визуалната история",
+    "skills-gear-microphone": "Микрофон: DJI Mic Mini",
     "skills-conclusion":
       "Този сетъп ми позволява да бъда гъвкава и креативна — създавайки съдържание, което изглежда истинско, стилно и приковаващо вниманието.",
   },
