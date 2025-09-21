@@ -86,6 +86,10 @@
     gap: 20px;
   }
 
+  .gallery-controls {
+    flex-wrap: wrap;
+  }
+
   .footer__leftSide {
     width: 100%;
   }
